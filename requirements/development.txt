@@ -168,13 +168,6 @@ prophet==1.1.5
 proto-plus==1.22.2
     # via google-cloud-bigquery-storage
 protobuf==4.23.0
-    # via
-    #   google-api-core
-    #   google-cloud-bigquery-storage
-    #   googleapis-common-protos
-    #   grpcio-status
-    #   proto-plus
-psycopg2-binary==2.9.6
     # via apache-superset
 pure-sasl==0.6.2
     # via
