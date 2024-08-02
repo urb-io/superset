@@ -254,6 +254,13 @@ polyline==2.0.2
 prison==0.2.1
     # via flask-appbuilder
 prompt-toolkit==3.0.44
+    # via
+    #   google-api-core
+    #   google-cloud-bigquery-storage
+    #   googleapis-common-protos
+    #   grpcio-status
+    #   proto-plus
+psycopg2-binary==2.9.6  # <- moved from development.txt
     # via click-repl
 pyarrow==14.0.2
     # via apache-superset

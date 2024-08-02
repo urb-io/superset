@@ -184,14 +184,14 @@ configMountPath: "/app/pythonpath"
 extraConfigMountPath: "/app/configs"
 
 image:
-  repository: apachesuperset.docker.scarf.sh/apache/superset
+  repository: 137240550757.dkr.ecr.eu-central-1.amazonaws.com/superset-urbio
   tag: ~
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 
 initImage:
-  repository: apache/superset
+  repository: 137240550757.dkr.ecr.eu-central-1.amazonaws.com/superset-urbio
   tag: dockerize
   pullPolicy: IfNotPresent
 
